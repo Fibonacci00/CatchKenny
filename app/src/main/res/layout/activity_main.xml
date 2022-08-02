@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="399dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="93dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/pipi" />
+
+        <ImageView
+            android:id="@+id/imageViewa"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/pipi" />
+
+        <ImageView
+            android:id="@+id/imageViewe"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/pipi" />
+
+        <ImageView
+            android:id="@+id/imageViewc"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/pipi" />
+
+        <ImageView
+            android:id="@+id/imageViewf"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/pipi" />
+
+        <ImageView
+            android:id="@+id/imageViewb"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/pipi" />
+
+        <ImageView
+            android:id="@+id/imageViewg"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/pipi" />
+
+        <ImageView
+            android:id="@+id/imageViewd"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/pipi" />
+
+        <ImageView
+            android:id="@+id/imageViewk"
+            android:layout_width="130dp"
+            android:layout_height="121dp"
+            android:onClick="increasescore"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/pipi" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="298dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="28dp"
+        android:shadowColor="#531717"
+        android:text="Time : 15"
+        android:textColor="#8E2222"
+        android:textSize="53sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score : "
+        android:textColor="#652121"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="325dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
